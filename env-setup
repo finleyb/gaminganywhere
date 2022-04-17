@@ -1,6 +1,6 @@
 #!/bin/sh
 GA_OS=`uname -s`
-export GADEPS=/mnt/windows/data/research/game_anywhere_mcg_research/gaminganywhere/deps.posix
+export GADEPS=/home/finley/research/game_anywhere_mcg_research/gaminganywhere/deps.posix
 case $GA_OS in
 MSYS*)
 	export PKG_CONFIG_PATH=/mingw64/lib/pkgconfig
